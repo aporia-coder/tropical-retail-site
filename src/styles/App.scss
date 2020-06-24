@@ -1,0 +1,21 @@
+@import "functions";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-transform: none;
+}
+
+.centerMiddle {
+  @include flexCenter;
+  width: 50%;
+}
+
+.defaultHero {
+  background: url(../assets/tropical.jpg) no-repeat center center / cover;
+  height: 100vh;
+}
